@@ -1,0 +1,45 @@
+{
+    "Pharmaceutical": {
+        "company": "Pfizer",
+        "about": "Pfizer Canada Inc. is the Canadian operation of Pfizer Inc., one of the world's leading biopharmaceutical companies. Our diversified health care portfolio includes some of the world’s best-known prescription medicines, vaccines as well as non-prescription products. Every day, Pfizer employees work to bring therapies to patients that significantly improve their lives.",
+        "url": "http://www.pfizer.ca/",
+        "phone": "514 695-0500",
+        "lng": "-79.600933",
+        "lat": "43.655230",
+
+        "products": [
+            {
+                "name": "Bacitracin USP",
+                "drugs": "bacitracin",
+                "desc": "Bacitracin is a white to pale buff, hygroscopic powder, odorless or having a slight odor. It is freely soluble in water; insoluble in acetone, chloroform, and ether.",
+                "administered": "Injections",
+                "contraindication1": "The concurrent use of other nephrotoxic drugs, particularly streptomycin kanamycin, polymyxin B, polymyxin E (colistin), neomycin, and viomycin, should be avoided",
+                "contraindication2": "Do not take BACITRACIN USP if you are allergic (hypersensitive) to bacitracin"
+            },
+            {
+                "name": "GD-quinapril",
+                "drugs": "Quinapril hydrochloride",
+                "desc": "GD-quinapril is used for congestive heart failure, when it is combined with either a diuretic (“water pill”) and/or digitalis glycosides (drugs which help the heart beat more normally).",
+                "administered": "tablets",
+                "contraindication1": "Are allergic to quinapril hydrochloride or to any non-medicinal ingredient in the formulation.",
+                "contraindication2": "Have renovascular hypertension (a form of high blood pressure that affects the blood vessels leading to the kidney’s). "
+            },
+            {
+                "name": "Zeldox",
+                "drugs": "Ziprasidone hydrochloride",
+                "desc": "ZELDOX belongs to a group of medicines called atypical antipsychotic drugs. ZELDOX is used to treat symptoms of schizophrenia and related psychotic disorders, and symptoms of acute manic or mixed episodes associated with bipolar disorder",
+                "administered": "Capsules",
+                "contraindication1": "You have a heart condition like a recent heart attack ",
+                "contraindication2": "You are taking other medications such as sparfloxacin, levomethadyl acetate, dolasetron mesylate, probucol or tacrolimus." 
+            },
+            {
+                "name": "Colestid",
+                "drugs": "Carnauba wax, cellulose acetate phthalate, colloidal silicon",
+                "desc": "Colestipol hydrochloride is hygroscopic, water insoluble, and it is neither hydrolyzed by digestive enzymes nor is it absorbed. This non-systemic action results in a continuous, partial removal of bile acids from the enterohepatic circulation preventing their reabsorption",
+                "administered": "Tablets",
+                "contraindication1": "hypersensitivity to colestipol hydrochloride or any of the components of the products.",
+                "contraindication2": "patients with complete biliary obstruction where bile is not secreted into the intestine. " 
+            }
+        ]
+    }
+}

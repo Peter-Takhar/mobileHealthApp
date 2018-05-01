@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parminder Takhar Assignment 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="_css/jquery.mobile.css">
+	<link rel="stylesheet" href="_css/mycss.css">
+	
+	<script type="text/javascript" src="_js/jquery.js"></script>
+	<script type="text/javascript" src="_js/jquery.mobile.js"></script>
+
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5ttrVt8LKAXsr1aSPQUdWAC1tb7djrDg"
+  type="text/javascript"></script>
+  
+	<script type="text/javascript" src="_js/myscript.js"></script>
+	
+
+	
+	
+</head>
+<body>
+	<div data-role="page" id="mainpage">
+		<div data-role="header">
+			<h1>Halton Health Central</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<a id="btnfitdef" href="#fitdefpage" 
+						class='ui-btn'>Fitness Definitions</a>
+			<a id="btnpharmd" href="#pharmapage" 
+						class='ui-btn'>Plizter Pharmaceutical Data</a>	
+		</div>
+		<div data-role="footer">
+			
+		</div>
+	</div>
+	
+	<!--------------- page for fitdefinitions ------------------->
+	<div data-role="page" id="fitdefpage">
+		<header data-role="header">
+			<h1 class="ui-title ui-shadow">Fitness Definitions</h1>
+		</header>
+
+		<section class="ui-content" role="main">
+		<div class='ui-grid-a'>
+			<div class='ui-block-a'>
+				<ul  id="fitdeflistviewa" data-role="listview"></ul>
+			</div>
+			<div class='ui-block-b'>
+				<ul  id="fitdeflistviewb" data-role="listview"></ul>
+			</div>
+		</div>
+		</section>
+		<a id="btnfitback" href="#mainpage" class='ui-btn'>Back to Main Page</a>
+		<div data-role="footer">
+			
+		</div>
+	</div>
+	<!--------------- end page for fitdefinitions ------------------->
+	
+	<!---------------------page for pharma company ------------------>
+	<div data-role="page" id="pharmapage">
+		<header data-role="header">
+			<h2>Halton Health Central</h2>
+		</header>
+		<section class="ui-content" role="main">
+			<h3>Products</h3>
+			<div id="prod" class="ui-grid-c">
+				<div class="ui-block-a"></div>
+				<div class="ui-block-b"></div>
+				<div class="ui-block-c"></div>
+				<div class="ui-block-d"></div>
+			</div>
+			<hr>
+			<div class="ui-grid-b">
+				<div class="ui-block-a">
+					<a href='#popupabout' class='ui-btn' data-rel='dialog' data-transition='pop'>About</a>
+				</div>
+				<div class="ui-block-b">
+					<a id='btnmap' href='#pharmamappage' class='ui-btn' rel='external'>Map</a>
+				</div>
+				<div class="ui-block-c">
+					<a href='#mainpage' class='ui-btn'>Back Home</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+		<div data-role="footer">
+			
+		</div> 	
+	</div>
+	<!------------------- end page for pharma company ------------------>
+	
+	<!-------------------- page for pharma map ------------------------------->
+	
+	<div data-role="page" id="pharmamappage">
+		<header data-role="header">
+			<h1 class="ui-title">Halton Health Central</h1>
+		</header>
+		<section class="ui-content" role="main">
+			<div id='map' style='width:200px;height:200px; text-align: center;'></div>
+			<a id='btnmapback' href='#pharmapage'class='ui-btn'>Back to Company Page</a>
+		</section>
+		<div data-role="footer">
+		
+		</div>
+	</div>
+	
+	<!----------------end page for pharma map -------------->
+	
+	<!--------------- popups for navbar ------------------->
+	
+	<div data-role='page' id='member0'>
+		<header data-role='header'><h2>Member Info</h2></header>
+		<div class='ui-content' role='main'>
+			<p><a href='#mainpage' data-rel='back' class='ui-btn ui-icon-back ui-btn-icon-top'>
+				Back</a></p>
+		</div>
+	</div>
+	
+	<div data-role='page' id='member1'>
+		<header data-role='header'><h2>Member Info</h2></header>
+		<div class='ui-content' role='main'>
+			<p><a href='#mainpage' data-rel='back' class='ui-btn ui-icon-back ui-btn-icon-top'>
+				Back</a></p>
+		</div>
+	</div>
+	
+	<div data-role='page' id='member2'>
+		<header data-role='header'><h2>Member Info</h2></header>
+		<div class='ui-content' role='main'>
+			<p><a href='#mainpage' data-rel='back' class='ui-btn ui-icon-back ui-btn-icon-top'>
+				Back</a></p>
+		</div>
+	</div>
+	
+	<div data-role='page' id='member3'>
+		<header data-role='header'><h2>Member Info</h2></header>
+		<div class='ui-content' role='main'>
+			<p><a href='#mainpage' data-rel='back' class='ui-btn ui-icon-back ui-btn-icon-top'>
+				Back</a></p>
+		</div>
+	</div>
+	<!--------------- popups for navbar done ------------------->
+</body>
+</html> 

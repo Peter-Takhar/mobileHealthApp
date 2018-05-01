@@ -1,0 +1,41 @@
+#prod a {
+	white-space:normal; !important;
+	margin: 0px;
+}
+
+#pharmapage h3{
+	text-align: center;
+	margin: 10px 0px;
+}
+
+#map {
+	margin: 0 auto;
+}
+
+#btnmapback, #btnfitback{
+	width: 50%;
+	margin: 5px auto;
+}
+
+
+#fitdeflistviewa {
+	margin: 0px;
+	padding: 0px;
+}
+
+#fitdeflistviewb {
+	margin: 0px;
+	padding: 0px;
+}
+
+.fitdefpic {
+	display: block;
+    margin: 0 auto;
+	width:50%;
+	height:50%;
+	margin-bottom: 5px;
+}
+
+.fitdefh1{
+	margin: 0px;
+}
